@@ -8,6 +8,11 @@
   max-width: 100%;
   min-height: 30rem;
 
+  @include breakpoint-down("small") {
+    width: 500px;
+    min-height: 25rem;
+  }
+
   &__social {
     margin: 1.25rem 0rem;
 
