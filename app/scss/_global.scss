@@ -1,0 +1,68 @@
+html {
+  font-size: 100%;
+}
+body {
+  margin: 0;
+
+  font-family: "Public Sans", sans-serif;
+}
+h1 {
+  font-weight: bold;
+  margin: 0;
+}
+p {
+  font-weight: 100;
+  font-size: $font-med;
+  line-height: 1.25rem;
+  letter-spacing: 0.03125rem;
+  margin: 1.25rem 3rem 1.875rem;
+}
+span {
+  font-size: $font-sm;
+}
+a {
+  color: $darkGray;
+  font-size: $font-med;
+  text-decoration: none;
+  margin: 0.9375rem 0rem;
+}
+button {
+  border-radius: 1.25rem;
+  border: 1px solid $red;
+  background-color: $red;
+  color: $white;
+  padding: 0.875rem 2.8125rem;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
+  transition: 80ms ease-in;
+
+  &:active {
+    transform: scale(0.95);
+  }
+  &:focus {
+    outline: none;
+  }
+  &.ghost {
+    background-color: transparent;
+    border-color: $white;
+  }
+}
+
+form {
+  background-color: $white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0rem 3.125rem;
+  height: 100%;
+  text-align: center;
+}
+
+input {
+  background-color: $white;
+  border: none;
+  padding: 0.75rem 0.9375rem;
+  width: 100%;
+  margin: 0.5rem 0rem;
+}
